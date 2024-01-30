@@ -28,14 +28,8 @@ Each exercise folder contains a README with instructions and example solutions.
 Work on the exercises and challenge yourself to write clean, efficient, and well-documented code.
 Share your solutions, ask questions, and engage with the community to enhance your learning experience.
 
-##Contributing:
-If you have additional exercises, improvements, or corrections, feel free to contribute! Follow these steps:
-
-Fork the repository.
-Create a new branch: git checkout -b feature/new-exercise.
-Commit your changes: git commit -m 'Add new exercise'.
-Push to the branch: git push origin feature/new-exercise.
-Open a pull request.
+## Contributing:
+If you have additional exercises, improvements, or corrections, feel free to contribute!
 
 Let's learn and grow together as JavaScript developers! Happy coding! 🚀
 
