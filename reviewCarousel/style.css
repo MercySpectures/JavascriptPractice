@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #8ae8ae;
+}
+
+.card{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    margin-top: 2rem;
+    padding: 1rem;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.12);
+    border-radius: 1rem;
+}
+
+img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+h2{
+    font-size: 1.4rem;
+    margin-bottom: 0.2rem;
+}
+
+h3{
+    font-size: 0.9rem;
+}
+
+.card p{
+    text-align: center;
+    margin: 0.8rem 0;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.btns span{
+    font-size: 1.2rem;
+    padding: 0.4rem 0.7rem;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.btns span:hover{
+    background-color: #8ae8ae;
+}
+
+button{
+    margin-top: 1.4rem;
+    padding: 0.4rem 0.6rem;
+    background-color: #8ae8ae;
+    outline: none;
+    border: none;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
