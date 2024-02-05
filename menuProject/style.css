@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&family=Protest+Riot&display=swap');
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Protest Riot', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #dad7cd;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.top{
+    width: 100%;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #344e41;
+}
+
+.heading{
+    gap: 0.6rem;
+    margin-bottom: 2rem;
+}
+
+.heading h1{
+    font-family: 'Protest Riot', sans-serif;
+    font-size: 3.5rem;
+    text-align: center;
+    color: #344e41;
+}
+
+.heading span{
+    width: 10rem;
+    height: 4px;
+    border-radius: 100%;
+    background-color: #344e41;
+}
+
+.menuOptions{
+    width: 60vw;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.menuOptions button{
+    padding: 0.3rem 1rem;
+    font-size: 1.1rem;
+    color: #344e41;
+    border: 1px solid #344e41;
+    background-color: #dad7cd;
+    transition: 0.3s all ease;
+}
+
+.menuOptions button:hover{
+    background-color: #344e41;
+    color: #dad7cd;
+}
+
+.menuOptions button:focus{
+    background-color: #344e41;
+    color: #dad7cd;
+}
+
+.cardWrapper{
+    margin-top: 4rem;
+}
+
+.cards{
+    width: 100%;
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+    gap: 2rem;
+}
+
+.card{
+    flex-direction: row;
+    border: 1px solid #344e41;
+    padding: 1rem;
+    width: 100%;
+    height: 35vh;
+    gap: 1rem;
+    background-color: #344e41;
+    color: #dad7cd;
+    border-radius: 0.4rem;
+    box-shadow: rgba(52, 78, 65, 0.2) 0px 7px 29px 0px;
+}
+
+.card .img{
+    width: 75%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 0.4rem;
+    transition: 0.3s all ease;
+}
+
+.img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s all ease;
+}
+
+.img img:hover{
+    scale: 1.2;
+}
+
+#rating{
+    height: 1.4rem;
+}
+
+.cardContent{
+    width: 100%;
+    height: 100%;
+    align-items: start; 
+    justify-content: space-around;
+}
+
+.cardContent .titlePrice{
+    width: 100%;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.cardContent .titlePrice h3{
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #dad7cd;
+    margin-bottom: 6px;
+}
+
+.cardContent p{
+    font-size: 0.9rem;
+}
+
+
+@media only screen and (max-width:480px){
+    
+    .container{
+        padding: 0.4rem;
+    }
+    .menuOptions{
+        width: 90vw;
+        justify-content: space-evenly;
+        flex-direction: row;
+        margin-top: 2rem;
+        flex-wrap: wrap
+    }
+    .menuOptions button{
+        margin-bottom: 1rem;
+    }
+    .cards{
+        grid-template: 1fr / 1fr;
+        padding: 0.5rem;
+    }
+    .card{
+        height: 45vh;
+    }
+    .cardContent .titlePrice h3{
+        font-size: 1.2rem;
+    }
+    .top{
+        margin-top: 2rem;
+    }
+    .cardWrapper{
+        margin-top: 2rem;
+    }
+}
