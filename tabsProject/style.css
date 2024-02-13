@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+    flex-direction: column;
+    background: linear-gradient(375deg, #eff6e0, #aec3b0);
+}
+
+.wrapper h1{
+    font-size: 4rem;
+}
+
+.wrapper p{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+.box{
+    width: 90%;
+    height: 75vh;
+    padding: 2rem;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    overflow: hidden;
+}
+
+.box img{
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.tabBox{
+    width: 50%;
+    border: 1px solid #000;
+    height: 100%;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.tabBox .tabs{
+    height: 15%;
+}
+
+.tabs{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.tabs button{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    transition: 0.3s all ease-in-out;
+    font-weight: 600;
+}
+
+.tabs button:focus{
+    background-color: #aec3b0;
+}
+
+.tabBox .content{
+    height: 85%;
+    background: #aec3b0;
+    padding: 1.2rem;
+}
+
+.content h3{
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.content p{
+    text-align: left;
+}
+
+@media only screen and (max-width:480px){
+    .box{
+        height: 100%;
+        padding: 0rem;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .box img{
+        height: 100%;
+        width: 100%;
+    }
+    .tabBox{
+        width: 100%;
+        height: 100%;
+    }
+    .wrapper{
+        padding: 0.5rem;
+        height: 100%;
+    }
+    .content p{
+        text-align: left;
+    }
+    .tabs > button{
+        font-size: 1.5rem;
+        padding: 0.6rem 0;
+    }
+}
