@@ -1,0 +1,22 @@
+Resume Information Form
+Personal Details
+Full Name: [Your Full Name]
+Phone Number: [Your Phone Number]
+Email Address: [Your Email Address]
+City: [Your City]
+State: [Your State]
+Objective (Optional)
+[Briefly state your career objective or summary]
+Education
+Degree/Certification: [Your Degree or Certification]
+Institution/University: [Name of Institution/University]
+Year of Graduation: [Year]
+Work Experience
+Job Title: [Your Job Title]
+Company/Organization: [Company/Organization Name]
+Duration: [Start Date - End Date]
+Responsibilities/Achievements: [Briefly describe your responsibilities and achievements]
+Skills
+[List relevant skills, e.g., programming languages, software, etc.]
+References (Optional)
+Available upon request.
