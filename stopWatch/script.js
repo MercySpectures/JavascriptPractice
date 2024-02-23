@@ -7,9 +7,9 @@ var hours, minutes, seconds, remainder, formattedTime;
 
 var clockInterval, currentTime, elapsedtime = 0;
 
-start.addEventListener("click", () => {
+var startTime = new Date().getTime();
 
-    var startTime = new Date().getTime();
+start.addEventListener("click", () => {
 
     clockInterval = window.setInterval(() =>{
         currentTime = new Date().getTime();
